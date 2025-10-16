@@ -12,7 +12,7 @@ function Item({question, answer, none}) {
     return (
 
         <p onClick={handleClick}>{question} <br />
-        {isClicked ? "^0- "+answer : none}</p>
+        {isClicked ? "^0- " + answer : none}</p>
 
     )
 }
